@@ -11,7 +11,7 @@
         <?php include_once "../includes/menuAdmin.php" ?>
 
         <div id="conteudo" class="col-md-10">
-            <h2>Lista de Clientes</h2>
+            <h2>Lista de Usuários</h2>
         </div>
 
     </main>
