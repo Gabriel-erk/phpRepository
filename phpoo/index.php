@@ -3,6 +3,7 @@
 // como carro.php ja faz uma extensão do arquivo "Veiculo.php", não é totalmente necessário te-lo aqui novamente
 require_once "Veiculo.php";
 require_once "Carro.php";
+require_once "Moto.php";
 
 $veiculo = new Veiculo("BMW", "IX35", "Vermelho");
 
@@ -33,6 +34,18 @@ $carro->parar();
 $carro->desligado();
 $carro->acelerar();
 
+echo "<hr>-------------------------------------------<hr>";
 
-
-
+echo "Utilizando Classe Moto <br>";
+$moto = new Moto("Honda", "CB500", "Laranja");
+$moto->acelerar();
+$moto->ligar();
+$moto->acelerar();
+$moto->acelerar();
+$moto->acelerar();
+$moto->empinar();
+$moto->frear();
+$moto->frear();
+$moto->frear();
+$moto->parar();
+$moto->desligado();
