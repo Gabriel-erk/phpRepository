@@ -1,3 +1,10 @@
+<?php 
+
+require_once __DIR__."../autenticacao/verificarLogin.php";
+
+
+?>
+
 <header id="cabecalho" class="bg-secondary">
 
     <!-- row: linha, cada linha possui 12 colunas de espaço -->
@@ -18,3 +25,4 @@
     </div>
 
 </header>
+
